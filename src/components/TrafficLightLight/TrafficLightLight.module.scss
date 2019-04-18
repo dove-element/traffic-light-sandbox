@@ -1,0 +1,26 @@
+.light {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid #000;
+  background: #222;
+
+  &.red {
+    background-color: #680f0f;
+    &.switchedOn {
+      background-color: #e63131;
+    }
+  }
+  &.amber {
+    background-color: #41320a;
+    &.switchedOn {
+      background-color: #ffbb00;
+    }
+  }
+  &.green {
+    background-color: #083808;
+    &.switchedOn {
+      background-color: #00ff00;
+    }
+  }
+}
